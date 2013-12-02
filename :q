@@ -1,0 +1,13 @@
+export default Ember.Route.extend({
+	model: function(){
+		return Em.Object.create({});	   
+	},
+	// in this case (the create route), we can reuse the user/edit template
+	// associated with the usersCreateController
+	renderTemplate: function(){
+		console.log('yo');
+		this.render('user.edit',function(){
+			controller: 'usersCreate'
+		});		
+	}
+});
