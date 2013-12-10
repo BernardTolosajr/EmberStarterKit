@@ -1,7 +1,6 @@
 EmberStarterKit
 ===============
 
-This is a sample crud for ember start kit
-yo
-yyo
+This is a simple crud for ember start kit
+
 
