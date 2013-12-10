@@ -1,4 +1,4 @@
 EmberStarterKit
 ===============
 
-this is a sample crud for ember start kit
+This is a sample crud for ember start kit
